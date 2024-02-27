@@ -1,0 +1,10 @@
+@charset "utf-8";
+
+body{
+    height: 100vh;
+    border: 1px dashed #000;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRHUvgp6BoM513595c1UtINrIc8BU5Xq307I7oIrBWwg&s');
+    background-size: 100px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
