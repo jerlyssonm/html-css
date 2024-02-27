@@ -1,0 +1,20 @@
+@charset "utf-8";
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+table{
+    width: 400px;
+    border-collapse: collapse;
+}
+th, td{
+    border: 1px solid #000;
+    padding: 10px;
+}
+thead, tfoot{
+    background-color: grey;
+    color: #fff;
+}
+td.numero{
+    text-align: right;
+}
