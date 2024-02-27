@@ -1,4 +1,12 @@
 @charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Shantell+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Shantell+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+:root {
+ --font-texto: "Shantell Sans", cursive;
+ --font-titulo: "Lobster", sans-serif;
+ --font-padrao: Verdana, Geneva, Tahoma, sans-serif;
+}
 
 *{
     margin: 0px;
@@ -7,6 +15,7 @@
 html, body{
     min-height: 100vh;
     background-color: darkgray;
+    font-family: var(--font-padrao);
 }
 header{
     background-color: #000;
@@ -17,6 +26,8 @@ header{
 header > h1{
     padding-top: 50px;
     font-variant: small-caps;
+    font-family: var(--font-titulo);
+    font-size: 8vw;
 }
 
 header > p{
@@ -37,6 +48,12 @@ section{
     padding-bottom: 10vh;
     line-height: 2em;
     padding-left: 30px;
+    font-family: var(--font-texto);
+    font-size: 3.5vw;
+    font-weight: bold;
+}
+section > p{
+    padding-bottom: 2em;
 }
 section.normal{
     background-color: #fff;
@@ -44,11 +61,24 @@ section.normal{
 }
 section.image{
     color: #fff;
-    background-image: url('../imagens/background001.jpg');
+    background-color: rgba(0,0,0,0.250);
+    box-shadow: inset 5px 5px 10px #0000007c;
+    background-size: cover;
+    background-attachment: fixed;
 }
 section.image > p{
-    width: 400px;
+    display: inline-block;
+    padding: 5px;
     background-color: rgba(0,0,0,0.250);
+    text-shadow: 1px 1px 0px #000;
+}
+section#img01 {
+    background-image: url('../imagens/background001.jpg');
+    background-position: right center;
+}
+section#img02 {
+    background-position: right bottom;
+    background-image: url('../imagens/background002.jpg');
 }
 footer{
     background-color: #000;
