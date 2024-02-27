@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens Dinamica</title>
+</head>
+<body>
+    <h1>Imagens Dinamica</h1>
+    <p>Tente abrir em varios dispositivos ou mude o tamanho do navegador!</p>
+
+    <picture>
+        <source media="(max-width: 720px)" srcset="images/foto-p.jpg" type="image/jpg">
+        <source media="(max-width: 1050px)" srcset="images/foto-m.jpg" type="image/jpg">
+        <img src="images/foto-g.jpg" alt="foto grande">
+    </picture>
+
+    <h1>Reproduzindo Audio</h1>
+    <p>aqui aprendemos a reproduzir audios em html</p>
+    <audio preload="metadata" controls loop>
+        <source src="audios/japaozim.mp3" type="audio/mpeg">
+        <source src="audios/japaozim.ogg" type="audio/ogg">
+        <source src="audios/japaozim.wav" type="audio/wav">
+        <p>Caso nao tenha reproduzido a musica é devido seu navegado aceitar, <a href="audios/japaozim.mp3">clique aqui e baixe</a></p>
+    </audio >
+</body>
+</html>

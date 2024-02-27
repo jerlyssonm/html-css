@@ -1,0 +1,20 @@
+@charset "utf-8";
+
+body{
+    background-color: rgb(79, 104, 104);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h1{
+    color: rgb(0, 20, 20);
+}
+#principal{
+    text-align: center;
+    background-color: rgb(0, 20, 20);
+    color: aliceblue;
+}
+h2{
+    color: rgb(164, 201, 201);
+}
+p{
+    text-align: justify;
+}
