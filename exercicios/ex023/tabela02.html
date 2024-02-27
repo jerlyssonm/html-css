@@ -10,6 +10,7 @@
     <h1>Uso de tabelas Grandes</h1>
     <!-- 
         Anatomia Para Tabela Grandes
+        CAPTION
         TABLE
             THEAD
                 TR, TD, TH
@@ -19,18 +20,35 @@
                 TR, TD, TH
      -->
      <table>
+        <caption>População dos Estados Brasileiro</caption>
         <thead>
-            <th>Estado</th>
-            <th>População</th>
+            <th scope="col">Estado</th>
+            <th scope="col" >População</th>
         </thead>
         <tbody>
             <tr>
                 <td>São Paulo</td>
                 <td class="numero"> 45 919 049</td>
             </tr>
+            <tr>
+                <td>Teresina</td>
+                <td class="numero"> 15 919 049</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="numero"> 919 049</td>
+            </tr>
+            <tr>
+                <td>Maranhão</td>
+                <td class="numero"> 40 919 049</td>
+            </tr>
+            <tr>
+                <td>Ceara</td>
+                <td class="numero"> 11 919 049</td>
+            </tr>
         </tbody>
         <tfoot>
-            <th>Total de Habitantes</th>
+            <th scope="row">Total de Habitantes</th>
             <td class="numero"><strong>000 000</strong></td>
         </tfoot>
      </table>

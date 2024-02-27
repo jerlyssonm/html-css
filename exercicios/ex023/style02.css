@@ -7,6 +7,9 @@ table{
     width: 400px;
     border-collapse: collapse;
 }
+tbody > tr:nth-child(even){
+    background-color: aliceblue;
+}
 th, td{
     border: 1px solid #000;
     padding: 10px;
