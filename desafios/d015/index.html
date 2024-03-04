@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Query</title>
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="style/mediaquery.css">
+</head>
+<body onresize="tamanhoTela()">
+    <header>
+        <h1>Sitezinho</h1>
+        <span id="burg" class="material-symbols-outlined" onclick="clickMenu()">
+            menu
+        </span>
+        <menu id="itens">
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Produtos</a></li>
+                <li><a href="#">Serviços</a></li>
+                <li><a href="#">Sobre</a></li>
+            </ul>
+        </menu>
+    </header>
+    <main>
+        <article>
+            <h2>Testando Media Queries</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo adipisci blanditiis magni distinctio debitis ullam dignissimos, iusto quos a consequatur nisi consectetur! Sequi laboriosam eius nisi perspiciatis voluptate, impedit quia. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sit cumque pariatur culpa nihil tempore inventore cupiditate, velit tempora, minus fuga iusto assumenda hic, aliquid et quae voluptas nobis quidem obcaecati.</p>
+
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum ipsum non quae modi! Unde accusamus similique perferendis sint. Necessitatibus minus odit rem esse consectetur magni adipisci dolores expedita totam omnis? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ea repellat, voluptas dicta rerum esse saepe iure soluta magni eaque iste vero doloribus minima facere delectus aliquid quisquam iusto laborum blanditiis.</p>
+
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nostrum mollitia minus nulla. Nam, velit consequatur! Autem optio animi voluptatibus ducimus consequuntur quasi corrupti rem, numquam, sapiente ad earum error. In.  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odit libero illo laudantium ab odio distinctio in at exercitationem voluptatibus, dicta aperiam minima excepturi quisquam vero fugit! Ipsa, reiciendis libero? Sint.</p>
+        </article>
+    </main>
+    <script>
+        function tamanhoTela(){
+            
+        }
+        function clickMenu(){
+            if(itens.style.display == 'block') {
+                itens.style.display = 'none'
+            } else {
+                itens.style.display = 'block'
+            }
+        }
+    </script>
+</body>
+</html>
